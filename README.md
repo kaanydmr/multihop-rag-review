@@ -15,6 +15,7 @@ Code, prompts and results of a study that compares training-free (prompted) CRAG
 | `data/<dataset>/rerank_harrier-0.6b_jina-v3.5.json` | Cached reranker candidates for the original questions |
 | `results/<dataset>/<generator>/<system>.jsonl` | Every answer, with the passages given to the generator, the grading trace and the cost |
 | `results/judge*.jsonl`, `results/faithfulness*.jsonl` | Correctness and groundedness verdicts of both judges |
+| `results/human_validation.csv`, `results/human_labels.csv` | Agreement of both judges with the blind human labels, and the item-level labels |
 | `results/*.csv`, `results/figures/` | Metrics, significance tests and figures computed by `src/analyze.py` |
 
 ## Systems
@@ -64,7 +65,7 @@ All experiments ran on a single 16 GB GPU; the 31,800 answers and both judges to
 
 Table S1 of the supplementary material (the choice of embedder and reranker) comes from `src/compare_retrieval.py`, with each candidate component served on its own port.
 
-The human check of the correctness judge (60 items, labelled blind) is summarised in `results/human_validation.csv`.
+The human checks of the judges (60 correctness and 20 groundedness items, labelled blind to the judges' verdicts and to the system that produced the answer) are summarised in `results/human_validation.csv`. `results/human_labels.csv` gives every item with its human label and both judges' verdicts, so the agreement and Cohen's kappa can be recomputed.
 
 ## Licence
 

@@ -1,0 +1,81 @@
+item,task,dataset,question_id,answer,passage_ids,human_label,qwen_verdict,gemma_verdict
+D01,correctness,hotpotqa,5a7c25035542997c3ec972e5,Kolkata,,True,True,True
+D02,correctness,hotpotqa,5a8141cc55429938b6142316,Yes,,True,True,True
+D03,correctness,2wiki,e9940b6a0baf11ebab90acde48001122,"Francis Howard, 1st Earl of Effingham",,True,True,True
+D04,correctness,musique,4hop1__151903_5274_458768_33633,1542,,False,False,False
+D05,correctness,hotpotqa,5a8b83bc55429949d91db5c0,TOGO,,True,True,True
+D06,correctness,musique,4hop1__341156_49925_13759_736921,"3.  **Identify the German state:** The question asks for the German state where the *district* is located where the man preached. Wittenberg is a city in the state of **Saxony-Anhalt**. However, let's re-read carefully. The question asks: """,,False,False,True
+D07,correctness,2wiki,27e926ca0bb011ebab90acde48001122,Ithobaal I,,True,True,True
+D08,correctness,musique,2hop__35989_623159,Yaroslavl Oblast,,True,True,True
+D09,correctness,hotpotqa,5a79f04d5542996c55b2dca7,"University of California, Berkeley",,True,True,True
+D10,correctness,musique,4hop1__159467_725495_49925_267352,"Based on Passage [1], the church with 12.6% of adherents in New Zealand is the Roman Catholic Church. Passage [2] confirms the Catholic Church is active in Lesotho. The question asks for a movement led by a man who challenged this church. Passage [5] discusses the Protestant Reformation, where the Church of England separated from the Roman Catholic Church, and mentions ""Puritans"" and ""Separatists"" as groups critical of the Church's direction, but it does not explicitly name a specific movement led by a single man who challenged the Catholic Church in the context of the Reformation (like Lutheranism led by Martin Luther). However, the text mentions the ""Protestant Reformation"" itself. Let's re-read carefully. Passage [5] says ""During the Protestant Reformation, the Church of England... separated from the Roman Catholic Church."" It mentions Puritans and Separatists. It does not explicitly name Martin Luther or Luther",,False,False,False
+D11,correctness,musique,3hop1__321720_650651_7262,3.  **Network and Radio Figure:** Passage [2] states *The Biggest Loser Brunei* is the Bruneian version of the **NBC,,False,False,False
+D12,correctness,musique,3hop2__132957_379231_40768,A decade after the 1973 oil crisis,,True,False,False
+D13,correctness,2wiki,264fae5d089411ebbd75ac1f6bf848b6,No,,True,True,True
+D14,correctness,hotpotqa,5a8f51185542992414482a3d,20 consecutive times,,True,True,True
+D15,correctness,musique,3hop1__622497_160088_49779,Regis Philbin,,False,False,False
+D16,correctness,hotpotqa,5a887898554299206df2b2a2,no,,True,True,True
+D17,correctness,hotpotqa,5a796c805542990784727805,Chief of the Operations Staff of the Armed Forces High Command,,True,True,True
+D18,correctness,hotpotqa,5a7af08655429931da12c989,radionuclides,,True,True,True
+D19,correctness,musique,4hop3__754156_88460_30152_20999,The Christian Reconquista,,False,False,False
+D20,correctness,hotpotqa,5a8bd4d65542997f31a41dd8,no,,True,True,True
+D21,correctness,musique,2hop__596188_297986,London,,False,False,False
+D22,correctness,hotpotqa,5a8b84905542997f31a41d5d,football field,,False,False,False
+D23,correctness,2wiki,81f6dbba098111ebbdb0ac1f6bf848b6,no,,True,True,True
+D24,correctness,musique,3hop1__109113_720914_27537,to attend the conclave,,True,True,True
+D25,correctness,2wiki,8e7160ca0baf11ebab90acde48001122,Charles IV,,False,False,False
+D26,correctness,musique,4hop1__88342_49853_128008_87812,"1.  **Identify the event and team:** Passage [5] discusses the ""MLB All-Star Game Most Valuable Player Award."" It states that ""Baltimore Orioles players have won the most awards for a single franchise (with six)."" The question asks for the team with the most *titles* from the *event*. The passage does not state which team has won the most All-Star Game *titles* (wins), only that Orioles players have won the most *MVP awards*. However, in the context of typical trivia questions of this structure, it often conflates ""most awards"" with ""most titles"" or implies the team associated with the most MVPs is the target. Let's re-read carefully. The question asks for the team with the most *titles* from the *event*. The event is the",,False,False,False
+D27,correctness,hotpotqa,5ae346365542991a06ce9985,Walt Disney and Ub Iwerks,,True,True,True
+D28,correctness,2wiki,397b2ab60bdb11eba7f7acde48001122,São Paulo,,True,True,True
+D29,correctness,hotpotqa,5adc8d4f554299473435373d,singer,,True,True,True
+D30,correctness,2wiki,2815ef080baf11ebab90acde48001122,"Theobald II, Count of Bar",,True,True,True
+D31,correctness,2wiki,7e37b0a0089511ebbd75ac1f6bf848b6,"The Smugglers (1916 film) was directed by Sidney Olcott, and Hell's Valley was directed by Alan James. The passages identify both films as American, implying the directors are associated with the same country, but they do not explicitly state the directors' nationalities. However, in the context of such questions, ""American film"" typically implies the production and key personnel are from that country, or the question relies on the explicit ""American"" descriptor for the films themselves to infer the directors' origin if no other info is present. Strictly speaking, the text says the *films* are American, not the directors. But usually, these datasets assume the director's nationality matches the film's origin if not specified otherwise, or the question is a trick. Let's look closer. Passage [1] says ""1931 American western film directed by Alan James"". Passage [2] says ""1916 American silent comedy film... directed by Sidney Olcott""",,False,False,False
+D32,correctness,hotpotqa,5a7283355542991f9a20c4b1,Frederick I (Frederick Barbarossa),,True,True,True
+D33,correctness,2wiki,3a6e83be086b11ebbd5fac1f6bf848b6,yes,,True,True,True
+D34,correctness,musique,3hop1__857_846_7870,Shanghai road and its neighbourhood,,True,True,True
+D35,correctness,hotpotqa,5a72908f5542994cef4bc33b,Brett Scallions,,True,True,True
+D36,correctness,2wiki,8752358a097711ebbdb0ac1f6bf848b6,Yes,,True,True,True
+D37,correctness,musique,2hop__689472_52835,John D. Loudermilk,,True,True,True
+D38,correctness,musique,2hop__788087_150107,"Deborah Estrin is identified in passage [1] as a fellow of the ACM (Association for Computing Machinery). Passage [2] states that *Communications of the ACM* is the monthly journal of the ACM. The passage does not explicitly name a separate publisher for the journal, implying the ACM itself publishes it, or that the question refers to the journal's association. However, looking closely at the phrasing ""Who published the Communication of the association..."", it likely refers to the journal *Communications of the ACM*. Passage [2] says it is the journal *of* the ACM. It does not list a third-party publisher like Routledge or Emerald. In academic contexts, if no external publisher is listed, the association is often the publisher. Let's re-read carefully. Passage [2] says ""Communications of the ACM is the monthly journal of the Association for Computing Machinery (ACM)."" It does not say ""published by [Company]"". In contrast, passages [3",,False,False,False
+D39,correctness,2wiki,6a848a240bb011ebab90acde48001122,Sir John Lyon of Glamis,,True,True,True
+D40,correctness,2wiki,7d94382208d011ebbd95ac1f6bf848b6,yes,,True,True,True
+D41,correctness,musique,3hop2__132957_52222_40768,by the early 1980s,,True,False,False
+D42,correctness,hotpotqa,5a7283355542991f9a20c4b1,Frederick Barbarossa,,True,True,False
+D43,correctness,2wiki,e349437c0bd911eba7f7acde48001122,"St. Louis, Missouri",,True,True,True
+D44,correctness,hotpotqa,5ab4b2935542996a3a969fb5,Death in the Afternoon,,True,True,True
+D45,correctness,musique,2hop__52283_75184,Claudia Wells,,True,True,True
+D46,correctness,2wiki,9a9a151f096f11ebbdb0ac1f6bf848b6,No,,False,False,False
+D47,correctness,2wiki,7e37b0a0089511ebbd75ac1f6bf848b6,yes,,False,False,False
+D48,correctness,2wiki,01dc5ca0086c11ebbd60ac1f6bf848b6,no,,True,True,True
+D49,correctness,musique,3hop1__617062_127905_87812,first week of April,,False,False,False
+D50,correctness,hotpotqa,5a72ac8a5542992359bc3164,Lake Worth Lagoon,,False,False,False
+D51,correctness,2wiki,6cfe1e5408ac11ebbd83ac1f6bf848b6,yes,,True,True,True
+D52,correctness,hotpotqa,5adc8c545542994734353734,yes,,True,True,True
+D53,correctness,musique,4hop1__163763_49925_13759_736921,Wittenberg,,False,False,False
+D54,correctness,2wiki,9716f3fc097c11ebbdb0ac1f6bf848b6,Son Of Cain,,True,True,True
+D55,correctness,hotpotqa,5ae54c085542992663a4f1c4,"Europe, Caucasus, Asia Minor, Iran, western Asia, central Asia, Atlas Mountains",,False,False,False
+D56,correctness,musique,4hop1__324759_378185_282674_759393,Saint Paul,,False,False,False
+D57,correctness,hotpotqa,5a8d93ad554299653c1aa13d,Serri,,True,True,True
+D58,correctness,2wiki,5d76a0920bb011ebab90acde48001122,Princess Louise of Orléans,,False,False,False
+D59,correctness,musique,2hop__598467_68489,Snapper Foster,,True,True,True
+D60,correctness,2wiki,140b2d380bb011ebab90acde48001122,Robert III de Brus,,True,True,True
+K01,groundedness,2wiki,701d5e580baf11ebab90acde48001122,Ferdinand II of the Two Sicilies,"[34985, 23440, 27480]",True,True,True
+K02,groundedness,2wiki,1691ef940bdb11eba7f7acde48001122,Canada,"[42342, 42339]",False,True,True
+K03,groundedness,2wiki,6a7e42180bb011ebab90acde48001122,Rukn al-Dawla,"[8052, 318]",True,True,True
+K04,groundedness,2wiki,4c0ae11508f511ebbdaaac1f6bf848b6,"Godefroi, Comte d'Estrades","[22772, 22771, 49514, 42287, 49513]",True,True,True
+K05,groundedness,hotpotqa,5a84f06f5542994c784dda92,public airport,"[65703, 65694, 18285, 65696, 65701]",True,True,True
+K06,groundedness,hotpotqa,5a89f6235542993b751ca9c7,yes,"[44502, 44501, 49969, 49971]",True,False,True
+K07,groundedness,musique,3hop1__823336_228453_10972,November 1973,"[15789, 15902, 5433, 15906]",True,False,False
+K08,groundedness,musique,2hop__6956_192417,National Football League (NFL),"[9794, 9796, 7708, 9804, 9798]",True,False,True
+K09,groundedness,musique,2hop__249867_557232,United States,"[9304, 20639]",False,False,False
+K10,groundedness,hotpotqa,5a8da97c554299068b959d84,Western Institute of Technology,"[41539, 41538, 41536, 41537, 56846]",True,False,True
+K11,groundedness,2wiki,b0b2952008d311ebbd96ac1f6bf848b6,Tony Owen,"[29141, 29143, 5517, 29145, 2045]",True,True,True
+K12,groundedness,hotpotqa,5abe953b5542993f32c2a170,Saturday Night Live,"[16709, 29128, 16710]",False,False,False
+K13,groundedness,hotpotqa,5ab7fa7b5542992aa3b8c897,"Punk rock, rock, and post-hardcore","[7967, 7964, 7960, 46071, 7965]",True,True,True
+K14,groundedness,musique,3hop1__857_846_7890,75,"[16074, 16349, 16079, 16083]",True,True,True
+K15,groundedness,musique,3hop1__17192_78396_157843,1852,"[19301, 17958, 6122, 19310, 17616]",False,True,True
+K16,groundedness,hotpotqa,5ade28cf5542997c77aded85,Rutgers University,"[61925, 36200, 58287, 44157, 29459]",True,True,True
+K17,groundedness,2wiki,7d87730c087211ebbd66ac1f6bf848b6,No,"[51214, 51212, 51213]",True,True,True
+K18,groundedness,2wiki,951c19540bd911eba7f7acde48001122,Kate McGarrigle,"[15309, 53014]",True,True,True
+K19,groundedness,hotpotqa,5ab9cfb455429970cfb8ebae,no,"[10709, 63230]",False,False,True
+K20,groundedness,musique,3hop1__33845_42197_18397,Korea,"[16643, 16648]",True,False,False
